@@ -1,0 +1,6 @@
+def split (OOOOOOOO00O000000 ,O00O00OO0OOOOO0OO ):	
+  for OO000O0OOOO0O0OOO in range (0 ,len (OOOOOOOO00O000000 ),O00O00OO0OOOOO0OO ):	
+    yield OOOOOOOO00O000000 [OO000O0OOOO0O0OOO :OO000O0OOOO0O0OOO +O00O00OO0OOOOO0OO ]	
+chunk_size =2 	
+my_list =[1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ]	
+print (list (split (my_list ,chunk_size )))
